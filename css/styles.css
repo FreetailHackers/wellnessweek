@@ -202,3 +202,11 @@ html {
       font-size: 1.8vw;
       top: 240vw; } }
 
+.background-container {
+    width: 100%;
+    user-select: none;
+    position: relative;
+    background-size: cover;
+    height: 100vw; 
+    /* background: linear-gradient(360deg, #FFC7BD 69.86%, rgba(255, 199, 189, 0) 106.09%); */
+}
