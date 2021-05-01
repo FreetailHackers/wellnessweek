@@ -26,12 +26,26 @@ html {
     overflow: hidden;
 }
 
+.acm-logo{
+    position: absolute;
+    left: 2vw;
+    top: 2vw;
+    z-index: 2;
+    width: 5.5vw;
+    z-index: 4;
+}
+@media only screen and (max-width: 670px) {
+    .acm-logo {
+        left: 2vw;
+        width: 11vw;
+      } }
+
 #title {
     position: absolute;
-    width: 56vw;
-    height: 16vw;
-    left: 22%;
-    top: 0%;
+    width: 48vw;
+    height: 12vw;
+    left: 27%;
+    top: 1%;
     z-index: 4;
 }
 @media only screen and (max-width: 670px) {
@@ -41,12 +55,17 @@ html {
       left: 10%;
       top: 5%;
     }}
+
 #date {
     position: absolute;
-    width: 18vw;
-    left: 41%;
-    top: 32%;
+    width: 20vw;
+    left: 42%;
+    top: 42%;
     z-index: 4;
+    color: whitesmoke;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 2vw;
 }
 @media only screen and (max-width: 670px) {
     #date {
@@ -54,6 +73,40 @@ html {
       top: 23%;
       width: 26vw;
     }}
+
+#subtitle {
+    position: absolute;
+    width: 70vw;
+    left: 20%;
+    top: 30%;
+    z-index: 4;
+    color: whitesmoke;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 2vw;
+    text-align:center
+}
+@media only screen and (max-width: 670px) {
+    #date {
+        left: 39%;
+        top: 23%;
+        width: 26vw;
+    }}
+
+div.transparentbox {
+  margin: 30px;
+  background-color: #ffc8be;
+  opacity: 0.6;
+  position: absolute;
+  top: 70%;
+  z-index:5;
+}
+
+div.transparentbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #FFFF;
+}
 
 #clouds {
     position: absolute;
