@@ -8,18 +8,19 @@ function blendColors(colorA, colorB, amount) {
 }
   
 function setBackground() {
-var date = new Date();
-var current_hour = date.getHours();
-// start at Noon
-//Debug
-//current_hour= 24;
-current_hour = Math.abs(current_hour-12);
-// Hacky way to get style sheet
-var styleSheet = document.styleSheets[2];
-// start: #FFC7BD
-// end: #17214C
-var color = blendColors('#FFC7BD', '#17214C', current_hour/12);
-styleSheet.insertRule('.dynamic-color { background: linear-gradient(360deg,' + color +' 69.86%, rgba(255, 199, 189, 0) 106.09%);', 0);}
+    var date = new Date();
+    var current_hour = date.getHours();
+    // start at Noon
+    //Debug
+    //current_hour= 24;
+    current_hour = Math.abs(current_hour-12);
+    // Hacky way to get style sheet
+    var styleSheet = document.styleSheets[2];
+    // start: #FFC7BD
+    // end: #17214C
+    var color = blendColors('#FFC7BD', '#17214C', current_hour/12);
+    styleSheet.insertRule('.dynamic-color { background: linear-gradient(360deg,' + color +' 69.86%, rgba(255, 199, 189, 0) 106.09%);', 0);
+}
   
 window.onload = function(){
      setBackground();
