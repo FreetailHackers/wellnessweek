@@ -69,9 +69,10 @@ html {
 }
 @media only screen and (max-width: 670px) {
     #date {
-      left: 39%;
-      top: 23%;
-      width: 26vw;
+        left: 40%;
+        top: 28%;
+        width: 50vw;
+        font-size: 4vw;
     }}
 
 #subtitle {
@@ -88,9 +89,10 @@ html {
 }
 @media only screen and (max-width: 670px) {
     #subtitle {
-        left: 39%;
-        top: 23%;
-        width: 26vw;
+        left: 23%;
+        top: 20%;
+        width: 65vw;
+        font-size: 4vw;
     }}
 
 div.transparentbox {
@@ -105,6 +107,13 @@ div.transparentbox {
   z-index:5;
   border-radius: 25px;
 }
+@media only screen and (max-width: 670px) {
+    div.transparentbox {
+        top: 30%;
+        left: 2%;
+        width: 80vw;
+        height: 97vw;
+    }}
 
 div.transparentboxp {
   position: absolute;
@@ -114,10 +123,18 @@ div.transparentboxp {
   margin: 2%;
   z-index: 10;
   font-weight: bold;
-  color: white;
+  color: #445f7d;
   font-size: 1.2vw;
   font-family: Montserrat;
 }
+@media only screen and (max-width: 670px) {
+    div.transparentboxp {
+        top: 35%;
+        left: 12%;
+        width: 75vw;
+        font-size: 2.75vw;
+        height: 100vw;
+    }}
 
 #clouds {
     position: absolute;
@@ -132,48 +149,6 @@ div.transparentboxp {
       height: 100vh;
       top:0%
     }}
-
-#registerbutton {
-    position: absolute;
-    width: 18vw;
-    height: 3.25vw;
-    left: 30%;
-    top: 42%;
-    background-image: url("../assets/registerButton.png");
-    background-size: cover;
-    z-index: 2; }
-    #registerbutton:hover {
-      background-image: url("../assets/registerButtonHover.png");
-      cursor: pointer; }
-      @media only screen and (max-width: 670px) {
-        #registerbutton {
-          width: 50vw;
-          height: 9vw;
-          left: 25%;
-          top: 30%;
-        }}
-  
-#mentorbutton {
-    position: absolute;
-    width: 18vw;
-    height: 3.25vw;
-    left: 51%;
-    top: 42%;
-    background-image: url("../assets/mentorButton.png");
-    background-size: cover;
-    z-index: 2; 
-}
-    #mentorbutton:hover {
-      background-image: url("../assets/mentorButtonHover.png");
-      cursor: pointer; 
-    }
-    @media only screen and (max-width: 670px) {
-        #mentorbutton {
-          width: 50vw;
-          height: 9vw;
-          left: 25%;
-          top: 45%;
-        }}
 
 #what1 {
     position: absolute;
