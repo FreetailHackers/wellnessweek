@@ -60,7 +60,7 @@ html {
     position: absolute;
     width: 20vw;
     left: 42%;
-    top: 42%;
+    top: 36%;
     z-index: 4;
     color: whitesmoke;
     font-family: Montserrat;
@@ -78,7 +78,7 @@ html {
     position: absolute;
     width: 70vw;
     left: 20%;
-    top: 30%;
+    top: 26%;
     z-index: 4;
     color: whitesmoke;
     font-family: Montserrat;
@@ -87,7 +87,7 @@ html {
     text-align:center
 }
 @media only screen and (max-width: 670px) {
-    #date {
+    #subtitle {
         left: 39%;
         top: 23%;
         width: 26vw;
@@ -98,14 +98,20 @@ div.transparentbox {
   background-color: #ffc8be;
   opacity: 0.6;
   position: absolute;
-  top: 70%;
+  top: 40%;
+  left: 12%;
+  width: 75vw;
+  height: 22.7vw;
   z-index:5;
+  border-radius: 25px;
 }
 
 div.transparentbox p {
-  margin: 5%;
+  margin: 2%;
   font-weight: bold;
   color: #FFFF;
+  font-size: 1.2vw;
+  font-family: Montserrat;
 }
 
 #clouds {
