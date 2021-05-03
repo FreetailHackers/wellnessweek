@@ -64,7 +64,7 @@ html {
 #date {
     position: absolute;
     width: 20vw;
-    left: 42%;
+    left: 45%;
     top: 36%;
     z-index: 4;
     color: whitesmoke;
@@ -130,10 +130,10 @@ div.transparentboxp {
   left: 14%;
   width: 72vw;
   margin: 2%;
-  z-index: 10;
+  z-index: 11;
   color: #445f7d;
   font-size: 1.1vw;
-  font-weight: bolder;
+  font-weight: bold;
   font-family: Montserrat;
 }
 @media only screen and (max-width: 670px) {
