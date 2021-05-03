@@ -71,7 +71,7 @@ html {
 @media only screen and (max-width: 670px) {
     #date {
         left: 40%;
-        top: 28%;
+        top: 30%;
         width: 50vw;
         font-size: 4vw;
     }}
