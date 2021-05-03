@@ -70,7 +70,7 @@ html {
     color: whitesmoke;
     font-family: Montserrat;
     font-weight: bold;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 @media only screen and (max-width: 670px) {
     #date {
@@ -109,10 +109,10 @@ div.transparentbox {
   background-color: #ffc8be;
   opacity: 0.6;
   position: absolute;
-  top: 38%;
+  top: 37%;
   left: 12%;
   width: 75vw;
-  height: 24.5vw;
+  height: 27vw;
   z-index:5;
   border-radius: 25px;
 }
@@ -121,12 +121,12 @@ div.transparentbox {
         top: 30%;
         left: 1.5%;
         width: 80vw;
-        height: 112vw;
+        height: 120vw;
     }}
 
 div.transparentboxp {
   position: absolute;
-  top: 38%;
+  top: 37%;
   left: 14%;
   width: 72vw;
   margin: 2%;
