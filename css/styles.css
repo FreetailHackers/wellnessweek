@@ -24,6 +24,7 @@ html {
     position: relative;
     z-index: 0;
     overflow: hidden;
+    /* overflow-x:hidden */
 }
 
 .acm-logo{
@@ -78,7 +79,7 @@ html {
 #subtitle {
     position: absolute;
     width: 70vw;
-    left: 20%;
+    left: 17%;
     top: 26%;
     z-index: 4;
     color: whitesmoke;
@@ -95,36 +96,39 @@ html {
         font-size: 4vw;
     }}
 
+div.center{
+    text-align: center;
+}
+
 div.transparentbox {
   margin: 30px;
   background-color: #ffc8be;
   opacity: 0.6;
   position: absolute;
-  top: 40%;
+  top: 38%;
   left: 12%;
   width: 75vw;
-  height: 23.5vw;
+  height: 24.5vw;
   z-index:5;
   border-radius: 25px;
 }
 @media only screen and (max-width: 670px) {
     div.transparentbox {
         top: 30%;
-        left: 2%;
+        left: 1.5%;
         width: 80vw;
-        height: 104vw;
+        height: 112vw;
     }}
 
 div.transparentboxp {
   position: absolute;
-  top: 40%;
+  top: 38%;
   left: 14%;
   width: 72vw;
   margin: 2%;
   z-index: 10;
-  font-weight: bold;
   color: #445f7d;
-  font-size: 1.2vw;
+  font-size: 1.1vw;
   font-family: Montserrat;
 }
 @media only screen and (max-width: 670px) {
